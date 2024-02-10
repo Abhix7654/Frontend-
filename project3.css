@@ -1,0 +1,143 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: gilroy;
+}
+html,body{
+        width: 100%;
+        height: 100%;
+}
+#main{
+        width: 100%;
+        height: 100%;
+       
+}
+#nav{
+        height: 130px;
+        width: 100%;
+      padding: 45px 60px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(216, 215, 212);
+}
+#nav-part1{
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+}
+#nav-part2{
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+}
+
+#nav h4{
+        font-size: 25px;
+        font-weight: 600;
+}
+#nav h2{
+        font-size: 25px;
+        font-weight: 600;
+}
+#nav h3{
+        font-size: 25px;
+        font-weight: 600;
+}
+#content{
+        margin-top: 60px;
+        padding: 40px 65px;
+
+}
+#content h3{
+        font-size: 40px;
+        font-weight: 600;
+}
+#content h1{
+        margin-top: 44px;
+        font-size: 140px;
+        line-height: 165px;
+        font-weight: 500;
+        letter-spacing: -8px;
+        word-spacing: 10px;
+}
+#content h1:hover{
+        color: rgb(82, 62, 2);
+}
+#case{
+        padding: 40px 65px;
+        margin-top: 150px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#case h4{
+        font-size: 26px;
+        font-weight: 500;
+}
+#case h5{
+        font-size: 26px;
+        font-weight: 600;
+}#right{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+}#line{
+        height: 2px;
+        width: 100px;
+        background-color: #000000;
+}
+#projects{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 65px;
+        gap: 80px;
+}
+.elem{
+width: 50%;
+
+}
+.elem-img{
+        height: 770px;
+        background-color: rgb(163, 209, 230);
+        width: 100%;
+        border-radius: 30px;
+        background-size: cover;
+        background-position: center;
+}
+#img1{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/2267px-Sketch_Logo.svg.png);
+}
+#img2{
+        background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2e948896757753.5eb58c727d672.png);
+}
+.bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 0;
+}
+.bottom i{
+        padding: 14px 30px;
+        font-size: 22px;
+        border: 2px solid black;
+        border-radius: 50px;
+
+}
+.bottom i:hover{
+        background-color: #000000;
+        color: aliceblue;
+}
+.bottom h2{
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 10px;
+
+}
+.bottom h4{
+        font-size: 22px;
+       color: #464444;
+       font-weight: 500;
+}
